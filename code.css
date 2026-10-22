@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* ASIDE */
+aside{
+    background-color: black;
+    width: 20%;
+    height: 100vh;
+    color: white;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 80%;
+    position: fixed;
+}
+.asides{
+    text-align: end;
+    padding: 45px 35px;
+}
+.asides >h6 a{
+    color: white;
+    text-decoration: none;
+}
+.asides .active {
+    color: rgba(244, 19, 19, 0.699);
+}
+h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+h6{
+    font-size: 12px;
+    font-weight: 100;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    gap: 24px;
+    margin-top: 57px;
+    margin-left: 30px;
+    font-size: 14px;
+    cursor: pointer;
+}
+/* MAIN */
+main{
+    width: 80%;
+    height: 155vh;
+    background-color: black;
+}
+.contact{
+    margin-top: 27px;
+    margin-left: 25%;
+}
+.contact h2{
+    color: white;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.contact p{
+    color: rgba(184, 181, 181, 0.626);
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+span{
+    color: rgba(236, 41, 41, 0.756);
+    text-decoration: underline rgba(244, 19, 19, 0.699);
+    text-underline-offset: 3px;
+}
+/* FORM */
+.row{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 24px;
+}
+form >.acha{
+    display: flex;
+    flex-direction: column;
+}
+.acha >label{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.acha >input{
+    width: 100%;
+    height: 37px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid gray;
+    caret-color: white;
+    font-size: 19px;
+}
+.acha input:focus{
+    border-bottom: 2px solid white;
+}
+.field{
+    display: flex;
+    flex-direction: column;
+    width: 643px;
+    margin-bottom: 20px;
+}
+.field label{
+    color: white;
+    font-size: 15px;
+}
+.field input{
+    height: 41px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid gray;
+    background: transparent;
+    caret-color: white;
+    font-size: 19px;
+}
+.field textarea{
+    color: white;
+    font-size: 15px;
+}
+.field textarea{
+    height: 41px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid gray;
+    background: transparent;
+    caret-color: white;
+    font-size: 19px;
+}
+.field input:focus{
+    border-bottom: 2px solid white;
+}
+.field .sarim{
+    height: 150px;
+    color: rgba(139, 139, 139, 0.212);
+    font-size: 14px;
+    margin-top: 22px;
+    caret-color: white;
+    font-size: 19px;
+}
+button{
+    margin-top: 33px;
+    padding: 16px 30px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    color: black;
+    background-color: rgb(211, 65, 65);
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+    margin-bottom: 70px;
+}
+button:hover{
+    background-color: rgba(208, 59, 59, 0.76);
+    transition: 0.3s all ease-in-out;
+}
+/* FOOTER */
+footer >p{
+    width: 80%;
+    color: rgba(178, 178, 178, 0.662);
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 16px;
+
+}
+span{
+    color: rgba(244, 19, 19, 0.699);
+    text-decoration: underline rgba(244, 19, 19, 0.699);
+    text-underline-offset: 3px ;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+}
+span:hover{
+    color:   rgba(190, 41, 41, 0.749);
+    transition: 0.2s all ease-in-out;
+}
+

@@ -1,0 +1,931 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* ASIDE */
+aside{
+    background-color: black;
+    width: 20%;
+    height: 100vh;
+    color: white;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 80%;
+    position: fixed;
+}
+.asides{
+    text-align: end;
+    padding: 45px 35px;
+}
+.asides >h6 a{
+    color: white;
+    text-decoration: none;
+}
+.asides .active {
+    color: rgba(244, 19, 19, 0.699);
+}
+h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+h6{
+    font-size: 12px;
+    font-weight: 100;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    gap: 24px;
+    margin-top: 57px;
+    margin-left: 30px;
+    font-size: 14px;
+    cursor: pointer;
+}
+/* MAIN */
+section{
+    width: 80%;
+}
+/* PICTURE 1 */
+.picture1{
+    display: flex;
+    margin-bottom: 25px;
+}
+.overlay1{
+    width: 670px;
+    margin-right: 27px;
+    position: relative;
+}
+.overlay1 >img{
+    width: 100%;
+    height: 325px;
+    transition: 0.3s all ease-in-out;
+}
+.overlay2{
+    width: 300px;
+    position: relative;
+}
+.overlay2 >img{
+    width: 100%;
+    height: 325px;
+    transition: 0.3s all ease-in-out;
+}
+.overlay1 h6{
+    color: white;
+    position: absolute;
+    top: 46%;
+    left: 270px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    opacity: 0;
+}
+.overlay1 p{
+    color: white;
+    position: absolute;
+    top: 54%;
+    left: 300px;
+    font-size: 12px;
+    color: white;
+    opacity: 0;
+    
+}
+.overlay1:hover h6{
+    opacity: 1;
+    color: white;
+    transition: 0.3s all ease-in-out;
+}
+.overlay1:hover p{
+    opacity: 1;
+    color: white;
+    transition: 0.3s all ease-in-out;
+}
+.overlay1:hover >img{
+    filter: brightness(40%);
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+}
+.picture1 .overlay2 h6{
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 80px;
+    font-size: 16px;
+    font-weight: bold;
+    opacity: 0;
+}
+.overlay2 p{
+    color: white;
+    position: absolute;
+    top: 53%;
+    left: 105px;
+    font-size: 12px;
+    color: white;
+    opacity: 0;
+}
+.overlay2:hover h6{
+    opacity: 1;
+    color: white;
+    transition: 0.3s all ease-in-out;
+}
+.overlay2:hover p{
+    opacity: 1;
+    color: white;
+    transition: 0.3s all ease-in-out;
+}
+.overlay2:hover >img{
+    filter: brightness(40%);
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+}
+/* PICTURE 2 */
+.picture2{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 26px;
+}
+.overlay3{
+    width: 240px;
+}
+.overlay3 >img{
+    width: 100%;
+    height: 317px;
+    transition: 0.3s all ease-in-out;
+}
+.overlay3 h6{
+    color: white;
+    position: absolute;
+    top: 91%;
+    left: 52px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    opacity: 0;
+}
+.overlay3 p{
+    color: white;
+    position: absolute;
+    top: 95%;
+    left: 79px;
+    font-size: 12px;
+    color: white;
+    opacity: 0;
+}
+.overlay3:hover h6{
+    opacity: 1;
+    color: white;
+    transition: 0.3s all ease-in-out;
+}
+.overlay3:hover p{
+    opacity: 1;
+    color: white;
+    transition: 0.3s all ease-in-out;
+}
+.overlay3:hover >img{
+    filter: brightness(40%);
+    transition: 0.4s all ease-in-out;
+    cursor: pointer;
+}
+.overlay4{
+    width: 467px;
+}
+.overlay4 >img{
+    width: 100%;
+    height: 317px;
+    transition: 0.3s all ease-in-out;
+}
+.overlay4 h6{
+    color: white;
+    position: absolute;
+    top: 91%;
+    left: 430px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    opacity: 0;
+}
+.overlay4 p{
+    color: white;
+    position: absolute;
+    top: 95%;
+    left: 460px;
+    font-size: 12px;
+    color: white;
+    opacity: 0;
+}
+.overlay4:hover h6{
+    opacity: 1;
+    color: white;
+    transition: 0.4s all ease-in-out;
+}
+.overlay4:hover p{
+    opacity: 1;
+    color: white;
+    transition: 0.4s all ease-in-out;
+}
+.overlay4:hover >img{
+    filter: brightness(40%);
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+}
+.overlay5{
+    width: 240px;
+}
+.overlay5 >img{
+    width: 100%;
+    height: 317px;
+    transition: 0.3s all ease-in-out;
+}
+.overlay5 h6{
+    color: white;
+    position: absolute;
+    top: 91%;
+    left: 807px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    opacity: 0;
+}
+.overlay5 p{
+    color: white;
+    position: absolute;
+    top: 95%;
+    left: 835px;
+    font-size: 12px;
+    color: white;
+    opacity: 0;
+}
+.overlay5:hover h6{
+    opacity: 1;
+    color: white;
+    transition: 0.3s all ease-in-out;
+}
+.overlay5:hover p{
+    opacity: 1;
+    color: white;
+    transition: 0.4s all ease-in-out;
+}
+.overlay5:hover >img{
+    filter: brightness(40%);
+    transition: 0.4s all ease-in-out;
+    cursor: pointer;
+}
+/* PICTURE 3 */
+.picture3{
+    display: flex;
+    margin-bottom: 25px;
+    gap: 26px;
+}
+.overlay6{
+    width: 492px;
+}
+.overlay6 >img{
+    width: 100%;
+    height: 315px;
+    transition: 0.3s all ease-in-out;
+}
+.overlay6 h6{
+    color: white;
+    position: absolute;
+    top: 148%;
+    left: 180px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    opacity: 0;
+}
+.overlay6 p{
+    color: white;
+    position: absolute;
+    top: 152%;
+    left: 215px;
+    font-size: 12px;
+    color: white;
+    opacity: 0;
+}
+.overlay6:hover h6{
+    opacity: 1;
+    color: white;
+    transition: 0.3s all ease-in-out;
+}
+.overlay6:hover p{
+    opacity: 1;
+    color: white;
+    transition: 0.4s all ease-in-out;
+}
+.overlay6:hover >img{
+    filter: brightness(40%);
+    transition: 0.4s all ease-in-out;
+    cursor: pointer;
+}
+.overlay7{
+    width: 480px;
+}
+.overlay7 >img{
+    width: 100%;
+    height: 315px;
+    transition: 0.3s all ease-in-out;
+}
+.overlay7 h6{
+    color: white;
+    position: absolute;
+    top: 148%;
+    left: 675px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    opacity: 0;
+}
+.overlay7 p{
+    color: white;
+    position: absolute;
+    top: 152%;
+    left: 699px;
+    font-size: 12px;
+    color: white;
+    opacity: 0;
+}
+.overlay7:hover h6{
+    opacity: 1;
+    color: white;
+    transition: 0.3s all ease-in-out;
+}
+.overlay7:hover p{
+    opacity: 1;
+    color: white;
+    transition: 0.4s all ease-in-out;
+}
+.overlay7:hover >img{
+    filter: brightness(40%);
+    transition: 0.4s all ease-in-out;
+    cursor: pointer;
+}
+/* PICTURE 4 */
+.picture4{
+    display: flex;
+    gap: 27px;
+    margin-bottom: 25px;
+}
+.overlay8{
+    width: 315px;
+}
+.overlay8 >img{
+    width: 100%;
+    height: 330px;
+    transition: 0.3s all ease-in-out;
+}
+.overlay8 h6{
+    color: white;
+    position: absolute;
+    top: 210%;
+    left: 87px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    opacity: 0;
+}
+.overlay8 p{
+    color: white;
+    position: absolute;
+    top: 214%;
+    left: 115px;
+    font-size: 12px;
+    color: white;
+    opacity: 0;
+}
+.overlay8:hover h6{
+    opacity: 1;
+    color: white;
+    transition: 0.3s all ease-in-out;
+}
+.overlay8:hover p{
+    opacity: 1;
+    color: white;
+    transition: 0.4s all ease-in-out;
+}
+.overlay8:hover >img{
+    filter: brightness(40%);
+    transition: 0.4s all ease-in-out;
+    cursor: pointer;
+}
+.overlay9{
+    width: 315px;
+}
+.overlay9 >img{
+    width: 100%;
+    height: 330px;
+    transition: 0.3s all ease-in-out;
+}
+.overlay9 h6{
+    color: white;
+    position: absolute;
+    top: 210%;
+    left: 431px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    opacity: 0;
+}
+.overlay9 p{
+    color: white;
+    position: absolute;
+    top: 214%;
+    left: 462px;
+    font-size: 12px;
+    color: white;
+    opacity: 0;
+}
+.overlay9:hover h6{
+    opacity: 1;
+    color: white;
+    transition: 0.3s all ease-in-out;
+}
+.overlay9:hover p{
+    opacity: 1;
+    color: white;
+    transition: 0.4s all ease-in-out;
+}
+.overlay9:hover >img{
+    filter: brightness(40%);
+    transition: 0.4s all ease-in-out;
+    cursor: pointer;
+}
+.overlay10{
+    width: 315px;
+}
+.overlay10 >img{
+    width: 100%;
+    height: 330px;
+    transition: 0.3s all ease-in-out;
+}
+.overlay10 h6{
+    color: white;
+    position: absolute;
+    top: 210%;
+    left: 770px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    opacity: 0;
+}
+.overlay10 p{
+    color: white;
+    position: absolute;
+    top: 214%;
+    left: 794px;
+    font-size: 12px;
+    color: white;
+    opacity: 0;
+}
+.overlay10:hover h6{
+    opacity: 1;
+    color: white;
+    transition: 0.3s all ease-in-out;
+}
+.overlay10:hover p{
+    opacity: 1;
+    color: white;
+    transition: 0.4s all ease-in-out;
+}
+.overlay10:hover >img{
+    filter: brightness(40%);
+    transition: 0.4s all ease-in-out;
+    cursor: pointer;
+}
+/* PICTURE 5 */
+.picture5{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+.overlay11{
+    width: 240px;
+}
+.overlay11 >img{
+    width: 100%;
+    height: 317px;
+    transition: 0.3s all ease-in-out;
+}
+.overlay11 h6{
+    color: white;
+    position: absolute;
+    top: 270%;
+    left: 50px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    opacity: 0;
+}
+.overlay11 p{
+    color: white;
+    position: absolute;
+    top: 274%;
+    left: 78px;
+    font-size: 12px;
+    color: white;
+    opacity: 0;
+}
+.overlay11:hover h6{
+    opacity: 1;
+    color: white;
+    transition: 0.3s all ease-in-out;
+}
+.overlay11:hover p{
+    opacity: 1;
+    color: white;
+    transition: 0.4s all ease-in-out;
+}
+.overlay11:hover >img{
+    filter: brightness(40%);
+    transition: 0.4s all ease-in-out;
+    cursor: pointer;
+}
+.overlay12{
+    width: 467px;
+}
+.overlay12 >img{
+    width: 100%;
+    height: 317px;
+    transition: 0.3s all ease-in-out;
+}
+.overlay12 h6{
+    color: white;
+    position: absolute;
+    top: 270%;
+    left: 428px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    opacity: 0;
+}
+.overlay12 p{
+    color: white;
+    position: absolute;
+    top: 274%;
+    left: 456px;
+    font-size: 12px;
+    color: white;
+    opacity: 0;
+}
+.overlay12:hover h6{
+    opacity: 1;
+    color: white;
+    transition: 0.3s all ease-in-out;
+}
+.overlay12:hover p{
+    opacity: 1;
+    color: white;
+    transition: 0.4s all ease-in-out;
+}
+.overlay12:hover >img{
+    filter: brightness(40%);
+    transition: 0.4s all ease-in-out;
+    cursor: pointer;
+}
+.overlay13{
+    width: 240px;
+}
+.overlay13 >img{
+    width: 100%;
+    height: 317px;
+    transition: 0.3s all ease-in-out;
+}
+.overlay13 h6{
+    color: white;
+    position: absolute;
+    top: 270%;
+    left: 810px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    opacity: 0;
+}
+.overlay13 p{
+    color: white;
+    position: absolute;
+    top: 274%;
+    left: 835px;
+    font-size: 12px;
+    color: white;
+    opacity: 0;
+}
+.overlay13:hover h6{
+    opacity: 1;
+    color: white;
+    transition: 0.3s all ease-in-out;
+}
+.overlay13:hover p{
+    opacity: 1;
+    color: white;
+    transition: 0.4s all ease-in-out;
+}
+.overlay13:hover >img{
+    filter: brightness(40%);
+    transition: 0.4s all ease-in-out;
+    cursor: pointer;
+}
+/* PICTURE 6 */
+.picture6{
+    display: flex;
+    margin-bottom: 25px;
+}
+.overlay14{
+    width: 670px;
+    margin-right: 27px;
+    position: relative;
+}
+.overlay14>img{
+    width: 100%;
+    height: 335px;
+    transition: 0.3s all ease-in-out;
+}
+.overlay14 h6{
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 260px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    opacity: 0;
+}
+.overlay14 p{
+    color: white;
+    position: absolute;
+    top: 52%;
+    left: 290px;
+    font-size: 12px;
+    color: white;
+    opacity: 0;
+}
+.overlay14:hover h6{
+    opacity: 1;
+    color: white;
+    transition: 0.3s all ease-in-out;
+}
+.overlay14:hover p{
+    opacity: 1;
+    color: white;
+    transition: 0.4s all ease-in-out;
+}
+.overlay14:hover >img{
+    filter: brightness(40%);
+    transition: 0.4s all ease-in-out;
+    cursor: pointer;
+}
+.overlay15{
+    width: 300px;
+    position: relative;
+}
+.overlay15 >img{
+    width: 100%;
+    height: 335px;
+    transition: 0.3s all ease-in-out;
+}
+.overlay15 h6{
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 80px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    opacity: 0;
+}
+.overlay15 p{
+    color: white;
+    position: absolute;
+    top: 52%;
+    left: 108px;
+    font-size: 12px;
+    color: white;
+    opacity: 0;
+}
+.overlay15:hover h6{
+    opacity: 1;
+    color: white;
+    transition: 0.3s all ease-in-out;
+}
+.overlay15:hover p{
+    opacity: 1;
+    color: white;
+    transition: 0.4s all ease-in-out;
+}
+.overlay15:hover >img{
+    filter: brightness(40%);
+    transition: 0.4s all ease-in-out;
+    cursor: pointer;
+}
+/* PICTURE 7 */
+.picture7{
+    display: flex;
+    margin-bottom: 25px;
+    gap: 26px;
+}
+.overlay16{
+    width: 492px;
+}
+.overlay16 >img{
+    width: 100%;
+    height: 315px;
+    transition: 0.3s all ease-in-out;
+}
+.overlay16 h6{
+    color: white;
+    position: absolute;
+    top: 391%;
+    left: 180px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    opacity: 0;
+}
+.overlay16 p{
+    color: white;
+    position: absolute;
+    top: 395%;
+    left: 208px;
+    font-size: 12px;
+    color: white;
+    opacity: 0;
+}
+.overlay16:hover h6{
+    opacity: 1;
+    color: white;
+    transition: 0.3s all ease-in-out;
+}
+.overlay16:hover p{
+    opacity: 1;
+    color: white;
+    transition: 0.4s all ease-in-out;
+}
+.overlay16:hover >img{
+    filter: brightness(40%);
+    transition: 0.4s all ease-in-out;
+    cursor: pointer;
+}
+.overlay17{
+    width: 480px;
+}
+.overlay17 >img{
+    width: 100%;
+    height: 315px;
+    transition: 0.3s all ease-in-out;
+}
+.overlay17 h6{
+    color: white;
+    position: absolute;
+    top: 391%;
+    left: 680px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    opacity: 0;
+}
+.overlay17 p{
+    color: white;
+    position: absolute;
+    top: 395%;
+    left: 708px;
+    font-size: 12px;
+    color: white;
+    opacity: 0;
+}
+.overlay17:hover h6{
+    opacity: 1;
+    color: white;
+    transition: 0.3s all ease-in-out;
+}
+.overlay17:hover p{
+    opacity: 1;
+    color: white;
+    transition: 0.4s all ease-in-out;
+}
+.overlay17:hover >img{
+    filter: brightness(40%);
+    transition: 0.4s all ease-in-out;
+    cursor: pointer;
+}
+/* PICTURE 8 */
+.picture8{
+    display: flex;
+    margin-bottom: 70px;
+}
+.overlay18{
+    width: 300px;
+    margin-right: 27px;
+    position: relative;
+}
+.overlay18>img{
+    width: 100%;
+    height: 335px;
+    transition: 0.3s all ease-in-out;
+}
+.overlay18 h6{
+    color: white;
+    position: absolute;
+    top: 43%;
+    left: 80px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    opacity: 0;
+}
+.overlay18 p{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 109px;
+    font-size: 12px;
+    color: white;
+    opacity: 0;
+}
+.overlay18:hover h6{
+    opacity: 1;
+    color: white;
+    transition: 0.3s all ease-in-out;
+}
+.overlay18:hover p{
+    opacity: 1;
+    color: white;
+    transition: 0.4s all ease-in-out;
+}
+.overlay18:hover >img{
+    filter: brightness(40%);
+    transition: 0.4s all ease-in-out;
+    cursor: pointer;
+}
+.overlay19{
+    width: 670px;
+    position: relative;
+}
+.overlay19 >img{
+    width: 100%;
+    height: 335px;
+    transition: 0.3s all ease-in-out;
+}
+.overlay19 h6{
+    color: white;
+    position: absolute;
+    top: 43%;
+    left: 240px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    opacity: 0;
+}
+.overlay19 p{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 270px;
+    font-size: 12px;
+    color: white;
+    opacity: 0;
+}
+.overlay19:hover h6{
+    opacity: 1;
+    color: white;
+    transition: 0.3s all ease-in-out;
+}
+.overlay19:hover p{
+    opacity: 1;
+    color: white;
+    transition: 0.4s all ease-in-out;
+}
+.overlay19:hover >img{
+    filter: brightness(40%);
+    transition: 0.4s all ease-in-out;
+    cursor: pointer;
+}
+/* FOOTER */
+footer >p{
+    width: 80%;
+    color: rgba(178, 178, 178, 0.662);
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 16px;
+
+}
+span{
+    color: rgba(244, 19, 19, 0.699);
+    text-decoration: underline rgba(244, 19, 19, 0.699);
+    text-underline-offset: 3px ;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+}
+span:hover{
+    color:   rgba(190, 41, 41, 0.749);
+    transition: 0.2s all ease-in-out;
+}
